@@ -1,0 +1,42 @@
+[1.348s] Invoking command in '/home/ros2/town_ws/src/village_li': PYTHONPATH=/home/ros2/town_ws/src/install/village_li/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/village_li build --build-base /home/ros2/town_ws/src/build/village_li/build install --prefix /home/ros2/town_ws/src/install/village_li --record /home/ros2/town_ws/src/build/village_li/install.log --single-version-externally-managed
+[2.075s] running egg_info
+[2.082s] creating ../build/village_li/village_li.egg-info
+[2.084s] writing ../build/village_li/village_li.egg-info/PKG-INFO
+[2.086s] writing dependency_links to ../build/village_li/village_li.egg-info/dependency_links.txt
+[2.086s] writing entry points to ../build/village_li/village_li.egg-info/entry_points.txt
+[2.086s] writing requirements to ../build/village_li/village_li.egg-info/requires.txt
+[2.092s] writing top-level names to ../build/village_li/village_li.egg-info/top_level.txt
+[2.092s] writing manifest file '../build/village_li/village_li.egg-info/SOURCES.txt'
+[2.094s] reading manifest file '../build/village_li/village_li.egg-info/SOURCES.txt'
+[2.098s] writing manifest file '../build/village_li/village_li.egg-info/SOURCES.txt'
+[2.098s] running build
+[2.098s] running build_py
+[2.098s] creating /home/ros2/town_ws/src/build/village_li/build
+[2.098s] creating /home/ros2/town_ws/src/build/village_li/build/lib
+[2.099s] creating /home/ros2/town_ws/src/build/village_li/build/lib/village_li
+[2.099s] copying village_li/li4.py -> /home/ros2/town_ws/src/build/village_li/build/lib/village_li
+[2.101s] copying village_li/__init__.py -> /home/ros2/town_ws/src/build/village_li/build/lib/village_li
+[2.101s] copying village_li/li4_pop.py -> /home/ros2/town_ws/src/build/village_li/build/lib/village_li
+[2.105s] running install
+[2.109s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.109s]   warnings.warn(
+[2.112s] running install_lib
+[2.112s] creating /home/ros2/town_ws/src/install/village_li/lib/python3.10/site-packages/village_li
+[2.112s] copying /home/ros2/town_ws/src/build/village_li/build/lib/village_li/li4.py -> /home/ros2/town_ws/src/install/village_li/lib/python3.10/site-packages/village_li
+[2.113s] copying /home/ros2/town_ws/src/build/village_li/build/lib/village_li/__init__.py -> /home/ros2/town_ws/src/install/village_li/lib/python3.10/site-packages/village_li
+[2.113s] copying /home/ros2/town_ws/src/build/village_li/build/lib/village_li/li4_pop.py -> /home/ros2/town_ws/src/install/village_li/lib/python3.10/site-packages/village_li
+[2.113s] byte-compiling /home/ros2/town_ws/src/install/village_li/lib/python3.10/site-packages/village_li/li4.py to li4.cpython-310.pyc
+[2.113s] byte-compiling /home/ros2/town_ws/src/install/village_li/lib/python3.10/site-packages/village_li/__init__.py to __init__.cpython-310.pyc
+[2.113s] byte-compiling /home/ros2/town_ws/src/install/village_li/lib/python3.10/site-packages/village_li/li4_pop.py to li4_pop.cpython-310.pyc
+[2.113s] running install_data
+[2.114s] creating /home/ros2/town_ws/src/install/village_li/share/ament_index
+[2.114s] creating /home/ros2/town_ws/src/install/village_li/share/ament_index/resource_index
+[2.114s] creating /home/ros2/town_ws/src/install/village_li/share/ament_index/resource_index/packages
+[2.114s] copying resource/village_li -> /home/ros2/town_ws/src/install/village_li/share/ament_index/resource_index/packages
+[2.115s] copying package.xml -> /home/ros2/town_ws/src/install/village_li/share/village_li
+[2.115s] running install_egg_info
+[2.122s] Copying ../build/village_li/village_li.egg-info to /home/ros2/town_ws/src/install/village_li/lib/python3.10/site-packages/village_li-0.0.0-py3.10.egg-info
+[2.123s] running install_scripts
+[2.177s] Installing li4_node script to /home/ros2/town_ws/src/install/village_li/lib/village_li
+[2.178s] writing list of installed files to '/home/ros2/town_ws/src/build/village_li/install.log'
+[2.265s] Invoked command in '/home/ros2/town_ws/src/village_li' returned '0': PYTHONPATH=/home/ros2/town_ws/src/install/village_li/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/village_li build --build-base /home/ros2/town_ws/src/build/village_li/build install --prefix /home/ros2/town_ws/src/install/village_li --record /home/ros2/town_ws/src/build/village_li/install.log --single-version-externally-managed

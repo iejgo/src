@@ -1,0 +1,10 @@
+[0.331s] Invoking command in '/home/ros2/town_ws/src/build/village_wang': CMAKE_PREFIX_PATH=/home/ros2/town_ws/src/install/village_li:/opt/ros/rolling /usr/bin/cmake --build /home/ros2/town_ws/src/build/village_wang -- -j2 -l2
+[0.397s] [ 50%] [32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o[0m
+[0.698s] [01m[K/home/ros2/town_ws/src/village_wang/src/wang2.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: No such file or directory
+[0.699s]     2 | #include [01;31m[K"std_msgs/msg/string.hpp"[m[K
+[0.699s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.699s] compilation terminated.
+[0.701s] gmake[2]: *** [CMakeFiles/wang2_node.dir/build.make:76: CMakeFiles/wang2_node.dir/src/wang2.cpp.o] Error 1
+[0.701s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/wang2_node.dir/all] Error 2
+[0.701s] gmake: *** [Makefile:146: all] Error 2
+[0.705s] Invoked command in '/home/ros2/town_ws/src/build/village_wang' returned '2': CMAKE_PREFIX_PATH=/home/ros2/town_ws/src/install/village_li:/opt/ros/rolling /usr/bin/cmake --build /home/ros2/town_ws/src/build/village_wang -- -j2 -l2

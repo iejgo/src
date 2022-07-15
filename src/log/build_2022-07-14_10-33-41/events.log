@@ -1,0 +1,144 @@
+[0.000000] (-) TimerEvent: {}
+[0.003661] (village_li) JobQueued: {'identifier': 'village_li', 'dependencies': OrderedDict()}
+[0.003785] (village_wang) JobQueued: {'identifier': 'village_wang', 'dependencies': OrderedDict()}
+[0.008937] (village_li) JobStarted: {'identifier': 'village_li'}
+[0.064172] (village_wang) JobStarted: {'identifier': 'village_wang'}
+[0.100257] (-) TimerEvent: {}
+[0.200855] (-) TimerEvent: {}
+[0.301557] (-) TimerEvent: {}
+[0.402423] (-) TimerEvent: {}
+[0.419487] (village_wang) JobProgress: {'identifier': 'village_wang', 'progress': 'cmake'}
+[0.419755] (village_wang) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2/town_ws/src/village_wang', '-DCMAKE_INSTALL_PREFIX=/home/ros2/town_ws/src/install/village_wang'], 'cwd': '/home/ros2/town_ws/src/build/village_wang', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'ros2'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('HOME', '/home/ros2'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.59.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '933'), ('SYSTEMD_EXEC_PID', '1068'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3311'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'rolling'), ('LOGNAME', 'ros2'), ('JOURNAL_STREAM', '8:40576'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ros2-virtual-machine:@/tmp/.ICE-unix/1046,unix/ros2-virtual-machine:/tmp/.ICE-unix/1046'), ('INVOCATION_ID', '0a9e2f99461f495db9c82d428cf8ce11'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6PB3O1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ccba79467c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/rolling'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros2/town_ws/src/build/village_wang'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/rolling/lib/python3.10/site-packages:/opt/ros/rolling/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('BREAKPAD_DUMP_LOCATION', '/home/ros2/.config/Code/exthost Crash Reports'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/rolling')]), 'shell': False}
+[0.506166] (-) TimerEvent: {}
+[0.607218] (-) TimerEvent: {}
+[0.709952] (-) TimerEvent: {}
+[0.810483] (-) TimerEvent: {}
+[0.893304] (village_wang) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.2.0\n'}
+[0.913693] (-) TimerEvent: {}
+[1.014459] (-) TimerEvent: {}
+[1.117430] (-) TimerEvent: {}
+[1.173991] (village_wang) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.2.0\n'}
+[1.209798] (village_wang) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.219032] (-) TimerEvent: {}
+[1.319698] (-) TimerEvent: {}
+[1.356483] (village_li) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/village_li', 'build', '--build-base', '/home/ros2/town_ws/src/build/village_li/build', 'install', '--prefix', '/home/ros2/town_ws/src/install/village_li', '--record', '/home/ros2/town_ws/src/build/village_li/install.log', '--single-version-externally-managed'], 'cwd': '/home/ros2/town_ws/src/village_li', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:en', 'USER': 'ros2', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib', 'HOME': '/home/ros2', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'TERM_PROGRAM_VERSION': '1.59.1', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '933', 'SYSTEMD_EXEC_PID': '1068', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3311', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'ros2', 'JOURNAL_STREAM': '8:40576', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ros2', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ros2-virtual-machine:@/tmp/.ICE-unix/1046,unix/ros2-virtual-machine:/tmp/.ICE-unix/1046', 'INVOCATION_ID': '0a9e2f99461f495db9c82d428cf8ce11', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.6PB3O1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-ccba79467c.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/rolling', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ros2/town_ws/src/build/village_li', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ros2/town_ws/src/install/village_li/lib/python3.10/site-packages:/opt/ros/rolling/lib/python3.10/site-packages:/opt/ros/rolling/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'BREAKPAD_DUMP_LOCATION': '/home/ros2/.config/Code/exthost Crash Reports', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1'}, 'shell': False}
+[1.420015] (-) TimerEvent: {}
+[1.472306] (village_wang) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.491481] (village_wang) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.497456] (village_wang) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.501797] (village_wang) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.514772] (village_wang) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.530752] (-) TimerEvent: {}
+[1.633327] (-) TimerEvent: {}
+[1.737371] (-) TimerEvent: {}
+[1.837764] (-) TimerEvent: {}
+[1.866782] (village_wang) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.881857] (village_wang) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.882480] (village_wang) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.883210] (village_wang) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.901771] (village_wang) StdoutLine: {'line': b'-- Found ament_cmake: 1.4.0 (/opt/ros/rolling/share/ament_cmake/cmake)\n'}
+[1.938512] (-) TimerEvent: {}
+[2.039886] (-) TimerEvent: {}
+[2.084072] (village_li) StdoutLine: {'line': b'running egg_info\n'}
+[2.090575] (village_li) StdoutLine: {'line': b'creating ../build/village_li/village_li.egg-info\n'}
+[2.092966] (village_li) StdoutLine: {'line': b'writing ../build/village_li/village_li.egg-info/PKG-INFO\n'}
+[2.094330] (village_li) StdoutLine: {'line': b'writing dependency_links to ../build/village_li/village_li.egg-info/dependency_links.txt\n'}
+[2.094864] (village_li) StdoutLine: {'line': b'writing entry points to ../build/village_li/village_li.egg-info/entry_points.txt\n'}
+[2.095154] (village_li) StdoutLine: {'line': b'writing requirements to ../build/village_li/village_li.egg-info/requires.txt\n'}
+[2.101185] (village_li) StdoutLine: {'line': b'writing top-level names to ../build/village_li/village_li.egg-info/top_level.txt\n'}
+[2.101367] (village_li) StdoutLine: {'line': b"writing manifest file '../build/village_li/village_li.egg-info/SOURCES.txt'\n"}
+[2.102991] (village_li) StdoutLine: {'line': b"reading manifest file '../build/village_li/village_li.egg-info/SOURCES.txt'\n"}
+[2.106473] (village_li) StdoutLine: {'line': b"writing manifest file '../build/village_li/village_li.egg-info/SOURCES.txt'\n"}
+[2.106825] (village_li) StdoutLine: {'line': b'running build\n'}
+[2.106929] (village_li) StdoutLine: {'line': b'running build_py\n'}
+[2.107072] (village_li) StdoutLine: {'line': b'creating /home/ros2/town_ws/src/build/village_li/build\n'}
+[2.107268] (village_li) StdoutLine: {'line': b'creating /home/ros2/town_ws/src/build/village_li/build/lib\n'}
+[2.107541] (village_li) StdoutLine: {'line': b'creating /home/ros2/town_ws/src/build/village_li/build/lib/village_li\n'}
+[2.108186] (village_li) StdoutLine: {'line': b'copying village_li/li4.py -> /home/ros2/town_ws/src/build/village_li/build/lib/village_li\n'}
+[2.109493] (village_li) StdoutLine: {'line': b'copying village_li/__init__.py -> /home/ros2/town_ws/src/build/village_li/build/lib/village_li\n'}
+[2.109727] (village_li) StdoutLine: {'line': b'copying village_li/li4_pop.py -> /home/ros2/town_ws/src/build/village_li/build/lib/village_li\n'}
+[2.113483] (village_li) StdoutLine: {'line': b'running install\n'}
+[2.117590] (village_li) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[2.118309] (village_li) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.121093] (village_li) StdoutLine: {'line': b'running install_lib\n'}
+[2.121261] (village_li) StdoutLine: {'line': b'creating /home/ros2/town_ws/src/install/village_li/lib/python3.10/site-packages/village_li\n'}
+[2.121338] (village_li) StdoutLine: {'line': b'copying /home/ros2/town_ws/src/build/village_li/build/lib/village_li/li4.py -> /home/ros2/town_ws/src/install/village_li/lib/python3.10/site-packages/village_li\n'}
+[2.121477] (village_li) StdoutLine: {'line': b'copying /home/ros2/town_ws/src/build/village_li/build/lib/village_li/__init__.py -> /home/ros2/town_ws/src/install/village_li/lib/python3.10/site-packages/village_li\n'}
+[2.121551] (village_li) StdoutLine: {'line': b'copying /home/ros2/town_ws/src/build/village_li/build/lib/village_li/li4_pop.py -> /home/ros2/town_ws/src/install/village_li/lib/python3.10/site-packages/village_li\n'}
+[2.121616] (village_li) StdoutLine: {'line': b'byte-compiling /home/ros2/town_ws/src/install/village_li/lib/python3.10/site-packages/village_li/li4.py to li4.cpython-310.pyc\n'}
+[2.121805] (village_li) StdoutLine: {'line': b'byte-compiling /home/ros2/town_ws/src/install/village_li/lib/python3.10/site-packages/village_li/__init__.py to __init__.cpython-310.pyc\n'}
+[2.122096] (village_li) StdoutLine: {'line': b'byte-compiling /home/ros2/town_ws/src/install/village_li/lib/python3.10/site-packages/village_li/li4_pop.py to li4_pop.cpython-310.pyc\n'}
+[2.122340] (village_li) StdoutLine: {'line': b'running install_data\n'}
+[2.122452] (village_li) StdoutLine: {'line': b'creating /home/ros2/town_ws/src/install/village_li/share/ament_index\n'}
+[2.122626] (village_li) StdoutLine: {'line': b'creating /home/ros2/town_ws/src/install/village_li/share/ament_index/resource_index\n'}
+[2.123089] (village_li) StdoutLine: {'line': b'creating /home/ros2/town_ws/src/install/village_li/share/ament_index/resource_index/packages\n'}
+[2.123258] (village_li) StdoutLine: {'line': b'copying resource/village_li -> /home/ros2/town_ws/src/install/village_li/share/ament_index/resource_index/packages\n'}
+[2.123541] (village_li) StdoutLine: {'line': b'copying package.xml -> /home/ros2/town_ws/src/install/village_li/share/village_li\n'}
+[2.123626] (village_li) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.130661] (village_li) StdoutLine: {'line': b'Copying ../build/village_li/village_li.egg-info to /home/ros2/town_ws/src/install/village_li/lib/python3.10/site-packages/village_li-0.0.0-py3.10.egg-info\n'}
+[2.131729] (village_li) StdoutLine: {'line': b'running install_scripts\n'}
+[2.140735] (-) TimerEvent: {}
+[2.186220] (village_li) StdoutLine: {'line': b'Installing li4_node script to /home/ros2/town_ws/src/install/village_li/lib/village_li\n'}
+[2.186591] (village_li) StdoutLine: {'line': b"writing list of installed files to '/home/ros2/town_ws/src/build/village_li/install.log'\n"}
+[2.241004] (-) TimerEvent: {}
+[2.273022] (village_li) CommandEnded: {'returncode': 0}
+[2.288714] (village_wang) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.4") found components: Interpreter \n'}
+[2.317970] (village_li) JobEnded: {'identifier': 'village_li', 'rc': 0}
+[2.341514] (-) TimerEvent: {}
+[2.442064] (-) TimerEvent: {}
+[2.495473] (village_wang) StdoutLine: {'line': b'-- Found rclcpp: 16.2.0 (/opt/ros/rolling/share/rclcpp/cmake)\n'}
+[2.542302] (-) TimerEvent: {}
+[2.614817] (village_wang) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.2.1 (/opt/ros/rolling/share/rosidl_generator_c/cmake)\n'}
+[2.626834] (village_wang) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.2.1 (/opt/ros/rolling/share/rosidl_adapter/cmake)\n'}
+[2.642620] (-) TimerEvent: {}
+[2.649253] (village_wang) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.2.1 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)\n'}
+[2.690783] (village_wang) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.737384] (village_wang) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.742778] (-) TimerEvent: {}
+[2.843205] (-) TimerEvent: {}
+[2.888665] (village_wang) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.3.0 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)\n'}
+[2.896005] (village_wang) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.3.0 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.943916] (-) TimerEvent: {}
+[3.045162] (-) TimerEvent: {}
+[3.080882] (village_wang) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.119787] (village_wang) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/rolling/include  \n'}
+[3.146640] (-) TimerEvent: {}
+[3.172962] (village_wang) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.246592] (-) TimerEvent: {}
+[3.347365] (-) TimerEvent: {}
+[3.448699] (-) TimerEvent: {}
+[3.459705] (village_wang) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.13.1 (/opt/ros/rolling/share/ament_lint_auto/cmake)\n'}
+[3.549288] (-) TimerEvent: {}
+[3.581703] (village_wang) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.582133] (village_wang) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.582241] (village_wang) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.584398] (village_wang) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.586689] (village_wang) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.586930] (village_wang) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.588198] (village_wang) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.593547] (village_wang) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.610353] (village_wang) StdoutLine: {'line': b'-- Generating done\n'}
+[3.612819] (village_wang) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2/town_ws/src/build/village_wang\n'}
+[3.626204] (village_wang) CommandEnded: {'returncode': 0}
+[3.626922] (village_wang) JobProgress: {'identifier': 'village_wang', 'progress': 'build'}
+[3.627718] (village_wang) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2/town_ws/src/build/village_wang', '--', '-j2', '-l2'], 'cwd': '/home/ros2/town_ws/src/build/village_wang', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'ros2'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('HOME', '/home/ros2'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.59.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '933'), ('SYSTEMD_EXEC_PID', '1068'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3311'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'rolling'), ('LOGNAME', 'ros2'), ('JOURNAL_STREAM', '8:40576'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ros2-virtual-machine:@/tmp/.ICE-unix/1046,unix/ros2-virtual-machine:/tmp/.ICE-unix/1046'), ('INVOCATION_ID', '0a9e2f99461f495db9c82d428cf8ce11'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6PB3O1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ccba79467c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/rolling'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros2/town_ws/src/build/village_wang'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/rolling/lib/python3.10/site-packages:/opt/ros/rolling/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('BREAKPAD_DUMP_LOCATION', '/home/ros2/.config/Code/exthost Crash Reports'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/rolling')]), 'shell': False}
+[3.649678] (-) TimerEvent: {}
+[3.711514] (village_wang) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o\x1b[0m\n'}
+[3.749951] (-) TimerEvent: {}
+[3.850321] (-) TimerEvent: {}
+[3.950802] (-) TimerEvent: {}
+[4.051992] (-) TimerEvent: {}
+[4.152505] (-) TimerEvent: {}
+[4.252970] (-) TimerEvent: {}
+[4.353752] (-) TimerEvent: {}
+[4.459187] (-) TimerEvent: {}
+[4.461989] (village_wang) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2/town_ws/src/village_wang/src/wang2.cpp:2:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kstd_msgs/msg/string.hpp: No such file or directory\n'}
+[4.462218] (village_wang) StderrLine: {'line': b'    2 | #include \x1b[01;31m\x1b[K"std_msgs/msg/string.hpp"\x1b[m\x1b[K\n'}
+[4.462296] (village_wang) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.462363] (village_wang) StderrLine: {'line': b'compilation terminated.\n'}
+[4.467273] (village_wang) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/wang2_node.dir/build.make:76: CMakeFiles/wang2_node.dir/src/wang2.cpp.o] Error 1\n'}
+[4.467697] (village_wang) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/wang2_node.dir/all] Error 2\n'}
+[4.467868] (village_wang) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.468755] (village_wang) CommandEnded: {'returncode': 2}
+[4.515140] (village_wang) JobEnded: {'identifier': 'village_wang', 'rc': 2}
+[4.526308] (-) EventReactorShutdown: {}
