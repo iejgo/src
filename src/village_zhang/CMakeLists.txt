@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(village_wang)
+project(village_zhang)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
@@ -8,10 +8,7 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
-find_package(std_msgs REQUIRED)
-find_package(Boost REQUIRED)
 find_package(village_interfaces REQUIRED)
-
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -25,16 +22,17 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
-ament_package()
-
-add_executable(wang2_node src/wang2.cpp)
-ament_target_dependencies(wang2_node rclcpp std_msgs Boost village_interfaces)
+add_executable(zhang3_node src/zhang3.cpp)
+ament_target_dependencies(zhang3_node
+  rclcpp
+  village_interfaces
+)
 
 install(TARGETS
-  wang2_node
-    DESTINATION   lib/${PROJECT_NAME}
-)
+  zhang3_node
+  DESTINATION lib/${PROJECT_NAME}
 
-install(DIRECTORY launch
-  DESTINATION share/${PROJECT_NAME}
 )
+  
+
+ament_package()
